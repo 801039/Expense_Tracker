@@ -1,0 +1,8 @@
+for react js
+=> npm install axios chart.js moment react-chartjs-2 react-datepicker styled-components
+
+01.12.12
+01.46.40
+global context => 01.58.14
+02.01.45
+Frontend => 02.06.07
