@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useContext, createContext } from 'react';
+import React, { useState, useContext, createContext } from 'react';
 import axios from 'axios';
 
 const Base_URL = 'https://localhost:5000/';
@@ -16,12 +15,12 @@ export const GlobalProvider = ({children}) => {
         const response = await axios.post(`${Base_URL} add-income`, income)
         .catch ((err) => {
             setError(err.response.data.message);
-        })
+        }) 
     
     }
 
     return(
-        <GlobalContext.Provider value = {'hello'}>
+        <GlobalContext.Provider value = {{addIncome}}>
             {children}    
         </ GlobalContext.Provider>
     )
