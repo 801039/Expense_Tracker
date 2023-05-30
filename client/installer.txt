@@ -7,3 +7,4 @@ global context => 01.58.14
 02.01.45
 Frontend => 02.06.07
 02.20.57
+02.25.12 => data base ekata data add wenna naa. backend frontend connect wela naa
