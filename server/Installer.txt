@@ -4,3 +4,9 @@ Mongodb => heenatigalat@gmail.com
 back end => 40.18
 
 frontend => 58.12
+
+
+env
+PORT = 5000;
+
+MONGO_URL= mongodb+srv://Tharindu:801039@cluster0.h9vgk8l.mongodb.net/?retryWrites=true&w=majority
